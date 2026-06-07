@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<div class="language-buttons">
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('te')">తెలుగు</button>
+    <button onclick="changeLanguage('hi')">हिन्दी</button>
+</div>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sri Sai Mechanical Works</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+
+<div class="overlay">
+
+<h1>Sri Sai Mechanical Works</h1>
+
+<h3>
+Helping vehicle owners and local businesses keep their vehicles running smoothly with professional repair, diagnostics, maintenance, and welding services.
+</h3>
+
+<p>
+At Sri Sai Mechanical Works, we provide reliable and affordable mechanical solutions backed by experienced technicians, modern equipment, and a customer-first approach.
+</p>
+
+<a href="#services" class="btn">
+Book Service
+</a>
+
+</div>
+
+
+</header>
+
+<section class="stats">
+
+<div class="stat">
+<h2>500+</h2>
+<p>Vehicles Serviced</p>
+</div>
+
+<div class="stat">
+<h2>10+</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Customer Satisfaction</p>
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+
+<div class="cards">
+
+<div class="card">
+<img src="images/repair.jpg">
+<h3>Vehicle Repair</h3>
+
+<p>
+Complete repair solutions for bikes, cars and commercial vehicles.
+</p>
+
+<p>
+<strong>What's Included:</strong><br>
+Engine Repair<br>
+Brake Servicing<br>
+Suspension Repair<br>
+Electrical Troubleshooting
+</p>
+
+</div>
+
+<div class="card">
+<img src="images/diagnostics.jpg">
+<h3>Engine Diagnostics</h3>
+
+<p>
+Advanced diagnostic testing and troubleshooting.
+</p>
+
+<p>
+<strong>What's Included:</strong><br>
+Computerized Scanning<br>
+Fault Detection<br>
+Performance Analysis
+</p>
+
+</div>
+
+<div class="card">
+<img src="images/welding.jpg">
+<h3>Welding Works</h3>
+
+<p>
+Professional fabrication and welding solutions.
+</p>
+
+<p>
+<strong>What's Included:</strong><br>
+Metal Fabrication<br>
+Structural Welding<br>
+Custom Projects
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="why">
+
+<h2>Why Choose Us?</h2>
+
+<ul>
+<li>Experienced Technicians</li>
+<li>Affordable Pricing</li>
+<li>Fast Service</li>
+<li>Customer Satisfaction Guaranteed</li>
+</ul>
+
+</section>
+
+<section class="trust">
+
+<h2>Trusted by Guntur Vehicle Owners</h2>
+
+<p>
+Over 500+ vehicles serviced successfully.
+</p>
+
+<p>
+Trusted by local businesses and vehicle owners for reliable repairs, honest recommendations, and quality workmanship.
+</p>
+
+<p>
+Conveniently located in Guntur and serving nearby areas with dependable mechanical solutions.
+</p>
+
+</section>
+
+<section class="contact">
+
+<h2>Ready to Get Your Vehicle Serviced?</h2>
+
+<p>
+Contact Sri Sai Mechanical Works today and let our experts help keep your vehicle performing at its best.
+</p>
+
+<button>Book Your Service Today</button>
+
+<h3 style="margin-top:30px;">
+Limited Service Slots Available Each Week
+</h3>
+
+<p>
+Schedule your inspection today to avoid unexpected breakdowns and costly repairs.
+</p>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Sri Sai Mechanical Works | Guntur
+</p>
+
+</footer>
+<script>
+
+const content = {
+
+en: {
+title: "Sri Sai Mechanical Works",
+subtitle: "Trusted Mechanical Solutions in Guntur"
+},
+
+te: {
+title: "శ్రీ సాయి మెకానికల్ వర్క్స్",
+subtitle: "గుంటూరులో విశ్వసనీయ మెకానికల్ సేవలు"
+},
+
+hi: {
+title: "श्री साई मैकेनिकल वर्क्स",
+subtitle: "गुंटूर में विश्वसनीय मैकेनिकल सेवाएं"
+}
+
+};
+
+function changeLanguage(lang){
+
+document.getElementById("title").innerText =
+content[lang].title;
+
+document.getElementById("subtitle").innerText =
+content[lang].subtitle;
+
+}
+
+</script>
+</body>
+</html>

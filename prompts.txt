@@ -1,0 +1,66 @@
+MASTER PROMPT
+
+You are a professional website copywriter.
+
+Create website content for the following business.
+
+Business Name: [Business Name]
+
+Business Type: [Business Type]
+
+Location: [Location]
+
+Target Customers: [Target Customers]
+
+Services Offered: [Services]
+
+Tone: [Friendly / Professional / Confident]
+
+Generate:
+
+1. Homepage Hero Section
+
+   * Headline
+   * Sub-headline
+   * Introduction
+
+2. Services Section
+
+   * Service Name
+   * Description
+   * What's Included
+   * Benefits
+
+3. Why Choose Us Section
+
+4. Trust Building Section
+
+5. Location-Based Trust Section
+
+6. Contact CTA
+
+7. Urgency-Based CTA
+
+Ensure the content is persuasive, professional, location-aware, and ready for a real business website.
+
+PROMPT ENGINEERING LOGIC
+
+Input Variables:
+
+* Business Name
+* Business Type
+* Location
+* Target Audience
+* Services
+* Tone
+
+Output Structure:
+
+* Homepage Copy
+* Services Copy
+* Trust Content
+* CTA Content
+* Location-Based Marketing Content
+
+Goal:
+Generate professional website copy automatically for local businesses while maintaining clarity, relevance, and persuasive marketing language.
